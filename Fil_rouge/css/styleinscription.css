@@ -1,0 +1,109 @@
+/*div{
+	border: 1px dashed red;
+}*/
+
+#fond{
+	width: 1225px;
+	background-color: #e7e7e7;
+	margin: auto;
+
+}
+
+#titre{
+	text-align: center;
+	
+}
+
+.arrondi{
+	left: 80px;
+	border-radius: 6px;
+}
+
+#renseignement{
+	top: 70px;
+	display: inline-block;
+	position: absolute;
+}
+
+#valider{
+	border-radius: 5px;
+	background-image:linear-gradient(#d37006,#643F00) ;
+	color: white;
+	width:100px;
+	height: 40px;
+	margin-top: 50px;
+	margin-left:45%;
+	font-weight: bold;
+	margin-bottom: 150px;
+}
+
+#modifier{
+	border-radius: 5px;
+	background-image:linear-gradient(#d37006,#643F00) ;
+	color: white;
+	width:100px;
+	height: 40px;
+	margin-top: 50px;
+	margin-left:45%;
+	font-weight: bold;
+	margin-bottom: 150px;
+}
+
+#nospartenaire{
+	text-align: center;
+	color: #060053;
+}
+
+#banniereinscription{
+	width: 1250px;
+	margin-bottom: 30px;
+	position: relative;
+}
+
+#numero{
+	height: 491px
+	width: 443px;
+}
+
+#vosnumero{
+	left: 10px;
+	color: #F3B919;
+	margin-bottom: 60px;
+}
+
+#fixe{
+	color: #7B7A7A;
+	font-weight: bold;
+}
+
+#portable{
+
+	color: #7B7A7A;
+	font-weight: bold;
+}
+
+.large{
+	height: 30px;
+}
+
+#telfixe{
+	margin-bottom: 20px;
+}
+
+#suivi{
+	color: #0C0F5A;
+	height: 220px;
+	margin-top: 20px;
+}
+
+#sms{
+
+	height: 400px;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+.text{
+	color: #7B7A7A;
+	font-weight: bold;
+}

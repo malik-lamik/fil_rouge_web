@@ -1,0 +1,442 @@
+/*div{
+	border: 1px dashed red;
+}*/
+
+body{
+	background-image: url(../images/fondecran.png);
+	top: 0%;
+	left: 0%;
+	right: 0%;
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	position: absolute;
+}
+
+#fond{
+	width: 1225px;
+	background-color: #e7e7e7;
+	margin: auto;
+}
+
+.corps{
+	background-color: #e7e7e7;
+}
+
+
+.vide{
+	height: 40px;
+
+}
+
+#entete {
+	position: relative;
+}
+
+#un{
+    
+	 background-image: repeating-linear-gradient(125deg,#E1E1E1 , #CCCCCC 15px, #E1E1E1 30px, #CCCCCC 30px);
+	  height:40px;
+
+	  
+}
+
+#deux{
+    
+	 background-color:#5E605F;
+	  height:40px;
+	 
+}
+
+#trois{
+    
+	 background-color: #383B3A;
+	 height:40px;
+	  
+	  
+}
+
+#logo{
+	width: 250px;
+	height: auto;
+	top: 0px;
+	position: absolute;
+	
+}
+
+#pays{
+	position: absolute;
+	top: 10px;
+	right: 35px;
+	height: 17%;
+}
+
+#panier{
+	position: absolute;
+	top: 9px;
+	right: 160px;
+	height: 20%;
+}
+
+#espaceclient{
+	top:9px;
+	right: 22%;
+	color: black;
+	font-size: 16px;
+	text-decoration: none ;
+	position: absolute;
+}
+
+#infos{
+	top:9px;
+	right: 36%;
+	color: black;
+	font-size: 16px;
+	text-decoration: none ;
+	position: absolute;
+}
+
+#produit{
+	top:45px;
+	right: 57%;
+	color: white;
+	font-size: 23px;
+	text-decoration: none ;
+	position: absolute;
+}
+
+#service{
+	top:45px;
+	right: 42%;
+	color: white;
+	font-size: 23px;
+	text-decoration: none ;
+	position: absolute;
+}
+
+#aide{
+	top:45px;
+	right: 28%;
+	color: white;
+	font-size: 23px;
+	text-decoration: none ;
+	position: absolute;
+}
+
+#apropos{
+	top:45px;
+	right: 8%;
+	color: white;
+	font-size: 23px;
+	text-decoration: none ;
+	position: absolute;
+}
+
+#guitare{
+	top:85px;
+	right:72%;
+	color: white;
+	font-size: 14px;
+	text-decoration: none ;
+	position: absolute;
+}
+
+#batteries{
+	top:85px;
+	right:62%;
+	color: white;
+	font-size: 14px;
+	text-decoration: none ;
+	position: absolute;
+}
+#clavier{
+	top:85px;
+	right:52%;
+	color: white;
+	font-size: 14px;
+	text-decoration: none ;
+	position: absolute;
+}
+#studio{
+	top:85px;
+	right:44%;
+	color: white;
+	font-size: 14px;
+	text-decoration: none ;
+	position: absolute;
+}
+#sono{
+	top:85px;
+	right:36%;
+	color: white;
+	font-size: 14px;
+	text-decoration: none ;
+	position: absolute;
+}
+#eclairage{
+	top:85px;
+	right:27%;
+	color: white;
+	font-size: 14px;
+	text-decoration: none ;
+	position: absolute;
+}
+#dj{
+	top:85px;
+	right:23%;
+	color: white;
+	font-size: 14px;
+	text-decoration: none ;
+	position: absolute;
+}
+#cases{	
+	top:85px;
+	right:15%;
+	color: white;
+	font-size: 14px;
+	text-decoration: none ;
+	position: absolute;
+}
+
+#accessoires{
+	top:85px;
+	right: 5%;
+	color: white;
+	font-size: 14px;
+	text-decoration: none ;
+	position: absolute;
+}
+
+#pub{
+	padding-left: 35px;
+	overflow: hidden;
+}
+
+#banniere{
+	background-image: repeating-linear-gradient(125deg,#E1E1E1 , #CCCCCC 15px, #E1E1E1 30px, #CCCCCC 30px);
+	 
+	  
+}
+
+#banniere_centre{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#banniere_droite:hover{
+	opacity: 0.6;
+
+}
+
+.padding{
+	 padding:0;
+}
+
+
+.hauteur200 {
+	height: 250px;
+}
+
+
+.top {
+	padding: 10px;
+	height: 100%;
+	width: 100%;
+}
+
+.marque{
+	padding-bottom: 5px;
+	padding-top: 5px;
+	height: 120px;
+	width: 270px;
+}
+
+#categorieguitare {
+	 padding-left: 5px;
+	margin: 0;
+}
+
+#categoriesono {
+	 padding-left: 5px;
+	margin: 0;
+}
+
+#hachure{
+	background-image: repeating-linear-gradient(125deg,#464545 , #5a5a5a 15px, #464545 30px, #5a5a5a 30px);
+}
+
+.marron{
+	color:#d37006;
+}
+
+.blanc{
+	color: white;
+}
+
+.test{
+	width: 20px;
+}
+
+#offremail{
+	border-radius: 7px;
+}
+
+#boutonmaron{
+	border-radius: 5px;
+	background-color: #d37006;
+	color: white;
+}
+
+#deplace{
+	margin-top: 10px;
+}
+
+#reseausociaux{
+	margin-top: 10px;
+}
+
+#sponsor{
+	width: 100%;
+}
+
+#aproposde{
+	width: 100%;
+}
+
+.orange:hover{
+	color: #E1AF0B;
+}
+
+#slideguitare{
+	margin-left: 22%;
+
+}
+
+#decends1{
+	width: 500px;
+	height: 230px;
+	background-color: #e7e7e7;
+	top: 40px;
+	margin-left: 670px;
+	border-radius: 5px;
+	z-index: 1;
+	position:absolute;
+}
+
+.slideauthen  {
+	border-radius:7px;
+	height: 30px;
+	margin-right: 200px;
+	padding-bottom: 10px;
+}
+
+.liste{
+	width: 160px;
+	height: 450px;
+	z-index: 1;
+	font-size: 16px;
+	border-radius: 5px;
+	background-color: #e7e7e7;
+	position: absolute;
+}
+
+#decends2{
+
+margin-left: 230px;
+}
+
+
+#decends3{
+
+margin-left: 360px;
+}
+
+
+#decends4{
+
+margin-left: 490px;
+}
+
+#decends5{
+
+margin-left: 600px;
+}
+
+#decends6{
+
+margin-left: 700px;
+}
+
+#decends7{
+
+margin-left:800px;
+}
+
+#decends8{
+
+margin-left:900px;
+}
+
+#decends9{
+
+margin-left:970px;
+}
+
+#decends10{
+
+margin-left:1050px;
+}
+
+.liens{
+	top:9px;
+	right: 22%;
+	color: black;
+	font-size: 16px;
+	padding-left: 10px;
+	text-decoration: none ;
+}
+
+
+td {
+	word-break: break-all; 
+}
+
+.slideauthen{
+   size: 30px;
+
+}
+
+.authenbtn{
+	background-image:linear-gradient(#d37006,#643F00) ;
+	margin-right: 20px;
+	border-radius: 5px;
+	text-decoration: none;
+	color: white;
+
+
+}
+
+.ligne_verticale
+{
+    width:5px;
+    border-left:3px solid #d37006;
+    height:200px;
+    left: 54%;
+    top: 20px;
+    position:absolute;
+}
+
+#connexion{
+top: 20px;
+position: absolute;
+left: 295px;
+}
+
+#btninsciption{
+
+	margin-top: 20px;
+	
+}

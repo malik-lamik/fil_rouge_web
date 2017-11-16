@@ -1,0 +1,36 @@
+
+.vert{
+	height: 100%;
+	background-color:#1E782D;
+}
+
+.blanc{
+	color:#DBE3DD;
+	text-shadow: 1px 1px black;
+	font-style: monospace;
+	
+}
+
+.degrade1{
+	background-image:linear-gradient(#01FE2B, #1E782D);
+}
+
+.degrade2{
+	background-image:linear-gradient(#1E782D,#01FE2B,yellow,white);
+}
+
+.degrade3{
+	background-image:linear-gradient(#1E782D,#01FE2B);
+}
+
+.taille{
+	width:50%;
+	height: 40%;
+}
+
+.image{
+	width: 100%;
+	height: 150px;
+}
+
+
